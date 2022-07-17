@@ -1,0 +1,426 @@
+
+@font-face {
+    font-family: 'koodak';
+    src: url(../fonts/KoodakBold.eot#?)format('eot'),
+    url(../fonts/KoodakBold.ttf)format('truetype'),
+    url(../fonts/KoodakBold.woff?)format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'c';
+    src: url(../fonts/Nazanin.eot#?)format('eot'),
+    url(../fonts/Nazanin.ttf)format('truetype'),
+    url(../fonts/Nazanin.woff?)format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/Yekan.eot#?)format('eot'),
+    url(../fonts/Yekan.ttf)format('truetype'),
+    url(../fonts/Yekan.woff?)format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* Navbar */
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show,
+ .navbar-dark .navbar-nav .show>.nav-link {
+    color: #1ebba3;
+}
+
+.nav-link{
+    font-family: 'koodak';
+}
+
+
+.navbar-brand{
+    font-family: 'koodak';
+}
+
+/* EndNavbar */
+
+
+
+/* Home */
+
+.landing{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100vh;
+    z-index: -1;
+}
+
+.home-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+.home-inner{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: url(../images/img4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.caption{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    z-index: 1;
+    color: white;
+}
+
+.caption h1{
+     font-family: 'yekan';
+     font-size: 4rem;
+     font-weight: 700;
+     letter-spacing: 0.5rem;
+     text-shadow: 0.1rem 0.1rem 0.8rem black;
+     padding-bottom: 1rem;
+}
+
+.caption h3{
+    font-family: "koodak";
+    font-size: 2rem;
+    text-shadow:0.1rem 0.1rem 0.5rem black ;
+    padding-bottom: 1rem;
+}
+
+.caption .btn-start{
+    font-family: 'yekan';
+    font-size: 1.2rem;
+    border-width: 0.1rem;
+    border-radius: 0;
+    padding: 0.5rem 1rem ;  
+}
+
+/* End Home */
+
+
+
+/* About site */
+
+.area{
+     margin: 0 auto;
+     padding: 4rem 2rem 1rem;
+}
+
+.area h2{
+    font-family: "yekan";
+    font-size: 2.4rem;
+    letter-spacing: -0.02rem;
+}
+
+.area p{
+    font-family: 'nazanin';
+    font-size: 1.7rem;
+}
+.area .btn-secondary{
+    border-width: 0.1rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem ;
+    margin: 0.5rem;
+    color: white;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+
+.area .btn-secondary:hover{
+    background-color: #02201c;
+    border-color: #02201c;
+}
+
+/* End About site */
+
+
+/* servises */
+
+.jumbotron{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.underline{
+    width: 20rem;
+    height: 0.3rem;
+    background-color: #1ebba3;
+    margin: 1rem auto 2rem;
+}
+
+.service i{
+    color: #1ebba3;
+}
+.service h3{
+    font-family: 'yekan';
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+    color: rgb(51, 48, 48);
+}
+
+.service p{
+    font-family: 'nazanin';
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.service a{
+    font-family: 'yekan';
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+    text-decoration: none;
+}
+.service h3:hover{
+    color: rgb(112, 72, 151);
+}
+
+
+
+
+/* End servises */
+
+/* product group */
+
+.group-background{
+    position: relative;
+}
+
+.fixe-wrap{
+    clip: rect(0,auto,auto,0);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: -1 !important;
+}
+
+.fix{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-image: url(../images/root/back2.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+.group-background .dark{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 7rem 2rem;  /* up left-right */
+}
+
+.group-background h3{
+    font-family: 'yekan';
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+    color: white;
+}
+
+/* end product group */
+
+
+/* teachers */
+
+
+
+#teachers img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+blockquote{
+    text-align: justify;
+    font-family: 'koodak';
+    font-size: 1rem;
+}
+
+blockquote i{
+    color: #1ebba3;
+    margin: 1rem;
+}
+
+.teacher-hr{
+    border: 0.1rem solid #1ebba3 ;
+}
+
+#teachers .jumbotron{
+    padding-top: 5rem;
+}
+
+#teachers .main{
+    margin: 0;
+}
+
+#about-teachres{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding-top: 3rem;
+    margin: 0 auto;
+     padding: 4rem 2rem 1rem;
+}
+
+#about-teachres .btn-secondary{
+    border-width: 0.1rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem ;
+    margin: 0.5rem;
+    color: white;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+
+#about-teachres h2{
+    font-family: "yekan";
+    font-size: 2.4rem;
+    letter-spacing: -0.02rem;
+}
+
+#about-teachres p{
+    font-family: 'nazanin';
+    font-size: 1.7rem;
+}
+
+#about-teachres .btn-secondary:hover{
+    background-color: #02201c;
+    border-color: #02201c;
+}
+
+/* End teachers */
+
+
+
+/* author */
+
+
+#authors .jumbotron{
+    padding: 2rem 0 3rem;
+}
+
+#authors .card{
+    border-radius: 0;
+    box-shadow: 3px 3px 5px #1ebba3 ;
+    margin: 1rem 0;
+}
+
+#authors .card:hover{
+    background-color: #168d7d;
+}
+
+#authors .card:hover h3,
+#authors .card:hover p{
+    color: white;
+}
+
+.card-body h3{
+    font-family: 'yekan';
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 800;
+}
+
+.card-body h5{
+    font-family: 'nazanin';
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.card-body .img-fluid{
+    margin-top: -5rem;
+}
+
+#authors .headin{
+    margin-bottom: 5rem;
+}
+
+.card-body p{
+    font-family: 'yekan';
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+}
+
+/* End author */
+
+
+
+footer{
+    background-color:#343a40 ;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer img{
+    margin:1.6rem; 
+    width: 80px;
+    height: 86px;
+}
+
+footer p{
+    font-family: 'nazanin';
+    font-weight: 400;
+
+}
+
+footer i{
+    font-size: 1.8rem;
+    margin: 1.2rem 0.5rem 0 ;
+    color: white;
+}
+
+footer i:hover{
+    color: #1ebba3;
+}
+
+.footer-hr {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+.brand-title{
+    color: #1ebba3;
+}
+
+.brand-title:hover{
+    color: #7ae0d1;
+    text-decoration: none;
+}
+
+
+
+
+
+
